@@ -65,6 +65,11 @@
   padding-left: 0rem;
 }
 
+#nav-toggle:checked + .sidebar .sidebar-brand h1 span:last-child,
+#nav-toggle:checked + .sidebar li a span:last-child{
+  display: none;
+
+}
 
 .sidebar-menu a span:first-child{
   font-size: 1.5rem;
@@ -358,6 +363,7 @@ td .status{
     display: flex;
     align-items: center;
   }
+ 
   header h2 label{
     display: inline-block;
     text-align: center;
